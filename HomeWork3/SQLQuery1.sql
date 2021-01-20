@@ -24,12 +24,7 @@ VALUES
 
 
 INSERT INTO dbo.Persons
-(
-    --PersonId - column value is auto-generated
-    FirstName,
-    Salary,
-    PassportID
-)
+
 VALUES
 ( 'Roberto', 43300.00, 102 ),
 ( 'Tom', 56100.00, 103 ),
@@ -94,7 +89,7 @@ CONSTRAINT FK_Exams FOREIGN KEY (ExamID) REFERENCES Exams(ExamID)
 INSERT INTO dbo.Students
 (
     --StudentID - column value is auto-generated
-    Name
+    [Name]
 )
 VALUES
 ('Mila'),
