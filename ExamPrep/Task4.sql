@@ -1,0 +1,3 @@
+delete from OrderParts where OrderId= 19
+delete from Orders where OrderId= 19
+
